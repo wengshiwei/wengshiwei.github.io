@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Python Generator Recap
 category:
 - python

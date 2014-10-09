@@ -18,6 +18,22 @@ footer {
 	line-height: 5px;
 }
 
+a.no-style {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+a.no-style, a.no-style:focus {
+  outline: none;
+}
+a.no-style:hover {
+  text-decoration: none;
+}
+
+ul.no-style {
+    list-style-type: none;
+}
+
 .container {
 	width: 512px;
 	margin-left: auto;
