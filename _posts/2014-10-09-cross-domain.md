@@ -49,7 +49,7 @@ Same-origin policy 同源策略
 
 ### 3 Hacking
 
-流氓会武术，谁也挡不住。1中举得例子，如果Web Site和Web Service都是自己的服务，又懒得开启CORS，可以在Web Site的服务器上使用消息转发，将tail.moe:80/foobar/转发至tail.moe:8765。一秒钟跨域变同域。。。
+流氓会武术，谁也挡不住。1中举的例子，如果Web Site和Web Service都是自己的服务，又懒得开启CORS，可以在Web Site的服务器上使用消息转发，将tail.moe:80/foobar/转发至tail.moe:8765。一秒钟跨域变同域。。。
 
 
 
