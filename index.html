@@ -12,6 +12,7 @@ categories:
 		<ul class='no-style'>
 		    {% for post in site.categories.[category] %}
 		    <li>
+		       {{ post.date | date: "%Y-%m-%d" }}
 		       <a href='{{ post.url }}'>{{ post.title }}</a>
 		    </li>
 		    {% endfor %}
