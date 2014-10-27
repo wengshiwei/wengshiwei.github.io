@@ -45,7 +45,7 @@ category:
 
 这是我今天的想法。既然这个系列叫every-day-log，那么重点是每天的心得记录，而不是记录的准确性。
 
-
+Nathan Marz的书Big data-Principles and best practices of scalable realtime data systems到目前都是Early Access，等正式版出了再看。lambda-architecture这个话题暂时结束了。
 
 
 
