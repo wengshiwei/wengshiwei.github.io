@@ -67,3 +67,7 @@ ul.no-style {
 .text-align-center {
 	text-align: center;
 }
+
+.container img {
+	max-width: 512px
+}
