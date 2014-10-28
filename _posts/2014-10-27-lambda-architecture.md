@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lambda-architecture
+title: Lambda Architecture
 category:
 - every-day-log
 ---
