@@ -1,0 +1,28 @@
+---
+layout: post
+title: Lambda Calculus 1
+category:
+- every-day-log
+- lambda-calculus
+---
+
+今天和上周日读了两篇lambda-calculus的介绍，一份是SEP的[lambda calculus词条](plato.stanford.edu/entries/lambda-calculus/)，另一份是
+Henk Barendregt Erik Barendsen的[Introduction to Lambda Calculus](http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/geuvers.pdf)。还有一份讲lambda calculus前世今生的文章，[Lambda Calculus Then and Now](http://turing100.acm.org/lambda_calculus_timeline.pdf)
+
+第一份读了两遍，第二份前几章看的比较认真，后面几张浏览了一下。借了本教材再细看。第一份偏数学，第二份偏背景知识。
+
+Lambda calculus是一种calculus（什么是calculus）。它同图灵机等价(什么是图灵机，什么是等价)。Lambda calculus是functional programming的基础。虽然无法回答括号中的问题，但是我从self-application，或者说recursive中，看到了“计算”的感觉。我也从上面的材料中看到了命题逻辑、数论的影子。
+
+和力学系的同学交流，才知道Lambda calculus和他们学的泛函分析很像（泛函，而非分析）。即使是只看了上面两篇材料，也发觉fixed point combinator是个太巧妙的玩意。用这个技巧来证明简直比数学归纳法还要无赖。
+
+还看到两段话：
+
+> There are also typed versions of the lambda calculus. These are introduced essentially in Curry (1934) (for the so called Combinatory Logic, a variant of the lambda calculus) and in Church (1940).
+
+等于说，Combinatory Logic即typed lambda calculus。
+
+> The two original papers of Curry and Church introducing typed versions of the lambda calculus give rise to two different families of systems. In the typed lambda calculi a` la Curry terms are those of the type-free theory. Each term has a set of possible types. This set may be empty, be a singleton or consist of several (possibly infinitely many) elements. In the systems a` la Church the terms are annotated versions of the type-free terms. Each term has (up to an equivalence relation) a unique type that is usually derivable from the way the term is annotated.
+
+发明了一种记忆法。Curry, curry, 咖喱也，混在一团，type-free。而
+Church, church, 教堂，结构严谨，term with a unique type deriving from annotation
+
