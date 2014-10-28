@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Lambda Calculus 1 & others
+title: Lambda Calculus 1 & Others
 category:
 - every-day-log
-tag:
 - lambda-calculus
 ---
 
@@ -29,7 +28,7 @@ Lambda calculus是一种calculus（什么是calculus）。它同图灵机等价(
 发明了一种记忆法。Curry, curry, 咖喱也，混在一团，type-free。而
 Church, church, 教堂，结构严谨，term with a unique type deriving from annotation
 
-### 2 others
+### 2 Others
 
 在JC的推荐下，看了edX的FP101x，以haskell为工具教functional programming的。最初接触MOOC还是在Coursera刚上线的时候，那是通过了四门课。之后竟然没有一门课坚持到最后，总是被各种各样的事情掣肘，加上自己定力又不够。
 
