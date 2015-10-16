@@ -14,18 +14,31 @@ h6 {
 	font-weight: normal;
 }
 
-h2, h3 {
-	font-size: 22px;
+h1 {
+	font-size: 16px;
+}
+
+.container > h2 {
+	font-size: 28px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+
+article > h1,
+article > h2,
+article > h3 {
 	margin-top: 36px;
 	margin-bottom: 24px;
 }
 
-h3,
-h4,
-h5,
-h6 {
-	
+article > h1 {
+	font-size: 20px
 }
+
+article > h2 {
+	font-size: 18px
+}
+
 
 footer {
 	font-size: 11px;
