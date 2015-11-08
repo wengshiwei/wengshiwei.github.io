@@ -2,16 +2,16 @@
 layout: default
 comments: true
 ---
-{{ layout.comments }}
-{{ page.comments }}
-{{ site.time }}
 <hr>
 <h2 class='text-align-center'>{{ page.title }}</h2>
 <article>
 	{{content}}
 </article>
 
-{% if page.comments %}
+{% if layout.comments %}
+	<hr>
+	<hr>
+	<hr>
 	<div id="disqus_thread"></div>
 	<script>
 	var disqus_shortname = 'arbipher'; 
