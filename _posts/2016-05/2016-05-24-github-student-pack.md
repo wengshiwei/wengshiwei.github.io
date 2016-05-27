@@ -3,7 +3,7 @@ layout: post
 title: Github Student Pack 试用
 comments: true
 category:
-- work
+- misc
 ---
 
 不久之后要再次回到校园，顺便就申请了一发[Github Student Pack](https://education.github.com/pack)。今天试用了一下里面的一些东西。
@@ -15,7 +15,7 @@ in Plain English](https://www.expeditedssl.com/aws-in-plain-english)。
 
 # 2. bitnami
 
-一键安装云应用，比如WordPress。也可以安装nodejs的docker。这部分没搞懂。
+bitnami是云应用平台。它提供安装好应用的镜像或者容器，用户提供云服务器账户，它负责安装、部署、管理。
 
 # 3. CrowdFlower
 
@@ -43,6 +43,9 @@ CI平台
 这几个我注册了。剩下的Atom、Azure、Digital Ocean、dnsimple、SendGrid、udacity、unreal，知道用途，暂时用不到，就没有注册了。
 
 下一步计划是看看AWS的training有哪些东西。
+
+
+20160526 修订
 
 
 
