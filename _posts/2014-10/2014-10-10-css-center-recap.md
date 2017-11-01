@@ -3,6 +3,7 @@ layout: post
 title: CSS Center Recap
 category:
 - css
+- chinese
 ---
 
 看到一篇详尽的讲解CSS居中的文章 [Centering in CSS: A Complete Guide (2014-09-12)](http://css-tricks.com/centering-css-complete-guide/)

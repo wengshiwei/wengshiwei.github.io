@@ -1,0 +1,80 @@
+natural things:
+under a pms, it
+
+
+"Cargo"
+Some advantages that make a central registry popular
+in other languages include: discoverability and speed.
+
+
+
+crate is a compile unit, nor a module
+
+module, package, library
+
+update policy
+
+convertion for project layout
+
+### efficient propositional to
+- keystrokes
+- pixels
+-
+
+### System-level package manager
+
+Some package managers also provide functionalities to maintain packages at system level. An example is developer tools such as preprocessors or language formatters. These tools are useful in developping in that language, but not so useful when deploy any project.
+
+
+cryptographically signed!
+license
+mirrors
+friendly Web API (json based API)
+
+
+# SemVer
+
+work offline
+
+# dependent:
+cargo: platform dependency, development dependencies
+
+
+
+Which programming language has the best package manager?
+
+Comparison of Programming Language Package Managers
+
+The fundamental problem of programming language package management
+
+
+### small languages, how many languags indeed of a pms #
+
+If we trace back to the definition of a language, we find that even in one language package manager, we find more. The command line tools has its grammar and the manifest file also has its grammar. (...)
+
+
+#uncategoried topics
+
+## implementation
+format for humans such a TOML
+omit things that can be done by a static analysis
+cache? yarn part? (...)
+
+
+
+### System-level package manager
+
+Some package managers also provide functionalities to maintain packages at system level. An example is developer tools such as preprocessors or language formatters. These tools are useful in developping in that language, but not so useful when deploy any project.
+
+
+### small languages, how many languags indeed of a pms #
+
+If we trace back to the definition of a language, we find that even in one language package manager, we find more. The command line tools has its grammar and the manifest file also has its grammar. (...)
+
+
+#uncategoried topics
+
+## implementation
+format for humans such a TOML
+omit things that can be done by a static analysis
+cache? yarn part? (...)

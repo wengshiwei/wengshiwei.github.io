@@ -15,7 +15,7 @@ h6 {
 }
 
 h1 {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .container > h2 {
@@ -72,6 +72,10 @@ ul.no-style {
 	margin-right: auto;	
 }
 
+.clear {
+	clear: both;
+}
+
 /* layout */
 .text-align-right {
 	text-align: right;
@@ -83,4 +87,12 @@ ul.no-style {
 
 .container img {
 	max-width: 512px
+}
+
+/* element */
+.language-chooser {
+	width: 512px;
+    right: 110px;
+    top: 25px;
+    position: absolute;
 }

@@ -1,3 +1,4 @@
 _site
-draft
+.jekyll-metadata
+.DS_Store
 .jade

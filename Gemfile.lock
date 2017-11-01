@@ -194,6 +194,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-redirect-from
+  tzinfo-data
 
 BUNDLED WITH
    1.14.3

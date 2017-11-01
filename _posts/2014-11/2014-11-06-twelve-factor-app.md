@@ -1,15 +1,18 @@
 ---
+published: false
+
 layout: post
 title: Twelve-factor App
 category:
 - every-day-log
 - twelve-factor-app
+- chinese
 ---
 
 ### 1. Twelve-factor App
 今天认真地研读了昨天提到的[Twelve-factor App](http://12factor.net/)。画了张图
 
-![Twelve-factor App](/assets/posts/2014_11/12-factor-app.png)
+![Twelve-factor App](/assets/img/2014_11/12-factor-app.png)
 
 Twelve-factor的重点就是把App从开发到运行涉及到的每个环节都给与明确的“名称”。取名的要点是使每个环节明确、独立。
 

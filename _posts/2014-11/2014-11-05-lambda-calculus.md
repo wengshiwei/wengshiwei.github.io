@@ -1,9 +1,12 @@
 ---
+published: false
+
 layout: post
 title: Lambda Calculus & Others
 category:
 - every-day-log
 - lambda-calculus
+- chinese
 ---
 
 ### 1 lambda-calculus

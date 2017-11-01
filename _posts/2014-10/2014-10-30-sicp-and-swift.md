@@ -1,9 +1,12 @@
 ---
+published: false
+
 layout: post
 title: SICP & Swift
 category:
 - every-day-log
 - sicp
+- chinese
 ---
 
 ### 1 SICP

@@ -1,2 +1,6 @@
 highlighter: rouge
 permalink: pretty
+timezone: America/New_York
+
+gems:
+  - jekyll-redirect-from

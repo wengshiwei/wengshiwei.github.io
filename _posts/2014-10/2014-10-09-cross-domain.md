@@ -3,6 +3,7 @@ layout: post
 title: 跨域 Recap
 category:
 - cross-domain
+- chinese
 ---
 
 ### 1. 什么是跨域

@@ -1,8 +1,11 @@
 ---
+published: false
+
 layout: post
 title: Lambda Architecture
 category:
 - every-day-log
+- chinese
 ---
 
 常为自己不知道hadoop是何物感到惭愧。准确来说，有很多出场率很高的词语，我不知道**它们是什么**，也不知道**它们用来解决什么问题**。于是索性花了点时间把这几个维基词条看了一下(还有几个，上周看的，已经忘了)
