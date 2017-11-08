@@ -1,7 +1,7 @@
 /* base */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 22px;
 }
 
@@ -50,6 +50,10 @@ a {
  	cursor: inherit;
 }
 
+a:visited {
+	color: blue;
+}
+
 a.no-style {
  	color: inherit;
  	text-decoration: inherit;
@@ -67,9 +71,15 @@ ul.no-style {
 }
 
 .container {
-	width: 512px;
+	width: 768px;
 	margin-left: auto;
 	margin-right: auto;	
+}
+
+table {
+	width: 648px;
+	margin: 0 60px 0 60px;
+	font-size: 13px;
 }
 
 .clear {
@@ -86,13 +96,26 @@ ul.no-style {
 }
 
 .container img {
-	max-width: 512px
+	max-width: 648px;
+	margin: 0 60px 30px 60px;
+}
+
+img + em {
+	position: relative;
+	float: right;
+	margin-right: 60px;
+	margin-top: -25px;
 }
 
 /* element */
 .language-chooser {
-	width: 512px;
+	width: 768px;
     right: 110px;
-    top: 25px;
+    top: 27px;
     position: absolute;
 }
+
+table, th, td {
+	border: 1px solid black;
+	padding: 3px;
+ }

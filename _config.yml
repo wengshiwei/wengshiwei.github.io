@@ -1,6 +1,5 @@
 highlighter: rouge
 permalink: pretty
 timezone: America/New_York
+exclude: [.git/]
 
-gems:
-  - jekyll-redirect-from
