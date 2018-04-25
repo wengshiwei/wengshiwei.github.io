@@ -21,17 +21,17 @@ _Chapter 1 Systems_ is the underlie concepts and guideline of the whole book. It
 
 The chapter starts with dividing common problems one encounters in many kinds of systems into four categories: emergent properties, propagation of effects, incommensurate scaling, and trade-offs.
 
-**emergent properties** _are properties that are not evident in the individual components of a system, but show up when combining those components, so they might also be called surprises._ 
+**emergent properties** are properties that are not evident in the individual components of a system, but show up when combining those components, so they might also be called surprises.
 
-**propagation of effects** describe small changes in some components will affect many other components in the system. _Folk wisdom characterizes propagation of effects as: “There are no small changes in a large system”._
+**propagation of effects** describe small changes in some components will affect many other components in the system. Folk wisdom characterizes propagation of effects as: _“There are no small changes in a large system”_.
 
-**incommensurate scaling** means: _as a system increases in size or speed, not all parts of it follow the same scaling rules, so things stop working. It is usually the factor that limits the size or speed range that a single system design can handle._
+**incommensurate scaling** means: as a system increases in size or speed, not all parts of it follow the same scaling rules, so things stop working. It is usually the factor that limits the size or speed range that a single system design can handle.
 
 **trade-offs**. In gaining some goodness, the system will lose goodness elsewhere in the system. It mentions two common forms of trade-offs: _waterbed effect(pushing down on a problem at one point causes another problem to pop up somewhere else) and binary classifiation_ (false positive and false negative increasing at the same time)
 
 ## 2.2 From Systems to Complexity
 
-In this book, **a system** is defined as **a set of interconnected components that has an expected behavior observed at the interface with its environment.** _The underlying idea is to divide the world into two groups: those under discussion as part of the system, those not under discussion as part of the environment. There is interaction between a system and its environment; these interaction are the interface between the system and the environment. Identifying the components of a system depending on the point of view, with different _purpose_ and _granularity_.
+In this book, **a system** is defined as **a set of interconnected components that has an expected behavior observed at the interface with its environment.** The underlying idea is to divide the world into two groups: those under discussion as part of the system, those not under discussion as part of the environment. There is interaction between a system and its environment; these interaction are the interface between the system and the environment. Identifying the components of a system depending on the point of view, with different _purpose_ and _granularity_.
 
 Components of systems can be systems from a difference point of view. To avoid recursion in their writings, authors and designers have come up with a list of synonyms trying to capture the same concept: _systems, subsystems, components, elements, constituents, objects, modules, submodules, assemblies, subassemblies, and so on._
 
@@ -43,17 +43,17 @@ PCSD lists five signs of complexity:
 - A long description.
 - A team of designers, implementers, or maintainers.
 
-Then, it discusses the sources of complexity, in which _two merit special mention: 1. number of requirements and 2. one particular requirement - maintaining high utilization._
+Then, it discusses the sources of complexity, in which two merit special mention: 1. number of requirements and 2. one particular requirement - maintaining high utilization.
 
 ## 2.3 Complexity
 
 ## 2.3.1 Sources of Complexity - Number of Requirements
 
-_A primary source of complexity is just the list of requirements for a system. Each requirement, viewed by itself, may seem straightforward. Any particular requirement may even appear to add only easily tolerable complexity to an existing list of requirements. The problem is that the accumulation of many requirements adds not only their individual complexities but also complexities from their interactions. This interaction complexity arises from pressure for generality and exceptions that add complications, and it is made worse by change in individual requirements over time._
+A primary source of complexity is just the list of requirements for a system. Each requirement, viewed by itself, may seem straightforward. Any particular requirement may even appear to add only easily tolerable complexity to an existing list of requirements. The problem is that the accumulation of many requirements adds not only their individual complexities but also complexities from their interactions. This interaction complexity arises from pressure for generality and exceptions that add complications, and it is made worse by change in individual requirements over time.
 
-_Meeting many requirements with a single design is sometimes expressed as a need for **generality**. Generality may be loosely defined as “applying to a variety of circumstances.” Unfortunately, generality contributes to complexity, so it comes with a tradeoff, and the designer must use good judgment to decide how much of the generality is actually wanted._
+Meeting many requirements with a single design is sometimes expressed as a need for **generality**. Generality may be loosely defined as “applying to a variety of circumstances.” Unfortunately, generality contributes to complexity, so it comes with a tradeoff, and the designer must use good judgment to decide how much of the generality is actually wanted.
 
-_Finally, a major source of complexity is that requirements change._
+Finally, a major source of complexity is that requirements change.
 
 ## 2.3.2 Sources of Complexity - Maintaining High Utilization
 
