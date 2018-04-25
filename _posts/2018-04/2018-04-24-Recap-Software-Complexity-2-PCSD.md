@@ -31,7 +31,7 @@ The chapter starts with dividing common problems one encounters in many kinds of
 
 ## 2.2 From Systems to Complexity
 
-In this book, **a system** is defined as **a set of interconnected components that has an expected behavior observed at the interface with its environment.**. _The underlying idea is to divide the world into two groups: those under discussion as part of the system, those not under discussion as part of the environment. There is interaction between a system and its environment; these interaction are the interface between the system and the environment. Identifying the components of a system depending on the point of view, with different _purpose_ and _granularity_.
+In this book, **a system** is defined as **a set of interconnected components that has an expected behavior observed at the interface with its environment.** _The underlying idea is to divide the world into two groups: those under discussion as part of the system, those not under discussion as part of the environment. There is interaction between a system and its environment; these interaction are the interface between the system and the environment. Identifying the components of a system depending on the point of view, with different _purpose_ and _granularity_.
 
 Components of systems can be systems from a difference point of view. To avoid recursion in their writings, authors and designers have come up with a list of synonyms trying to capture the same concept: _systems, subsystems, components, elements, constituents, objects, modules, submodules, assemblies, subassemblies, and so on._
 
