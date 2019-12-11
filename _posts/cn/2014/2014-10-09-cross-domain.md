@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-cn
 title: 跨域 Recap
 category:
 - cross-domain

@@ -1,38 +1,22 @@
-I re-read the three `DDPA`-related papers (Higher-Order DDPA, Implementing Higher-Order DDPA and DRSF).
+The reason to re-read DDPA papers is more or less due to I felt I am not familiar (and confident) enough to explain to guys who don't do (high-order) (demand-driven) program analysis as well as guys who just do this area e.g. "what's your lab doing" "what are you doing" "what's the hard and novel part of your work". It seems sometimes I have to start from scratch.
 
-One of the "scary" things is Leandro told me it took him one year to thoroughly understand some Matt Might's papers.
-
-I skim through slides from [Abstract Interpretation Winter School], which Scott recommended to me before. (Not exercises, may do some in the coming holiday)
-
-Sometimes we mention `static analysis` using "not execute the program". My slight disagreement on the terms is whether in `abstract interpretation` or `demand-driven`, it actually "runs" the program under a different semantics(interpreter). Borrowing a concept from cryptography and imaging an oracle knowing all truths of the program. The truths also exclude properties which are determined in run-time.
+Sometimes we mention `static analysis` using "not execute the program". My slight disagreement on the terms is whether in `forward analysis` or `demand-driven analysis`, it actually "runs"(abstract interprets) the program under a different semantics(interpreter). Borrowing the concept `oracle` from cryptography and imaging an oracle knowing all truths of the program. If the oracle know something just from the program, our analysis should know. (Should the oracle obey `Rice's theorem`?). If some properties are determined at run-time, even the oracle can never know, nor do us.
 
 
 
+I do this because I skim through slides from [Abstract Interpretation Winter School], which Scott recommended to me before (Not exercises, may do some in the coming holiday)
 
-The type constrain is implemented in contracts.
+I also read some materials from `big-bang-doc` in our repo. The slides for SAS 2017 is helpful.
 
-```Python
-# Example 1
-def add(x: int, y: int): positive int
-    return x + y
+The aim to introduce `PDS` is for call-return alignment and the efficiency of look-up. Some forward analysis also use `PDA` but not the same purpose here.
 
-z1 = add( 1, 2)
-z2 = add(-1, 2)
-```
 
-The oracle know constrains in `add` must satisfy. So we hope our analysis can infer this and we can remove the contract check in run-time. In some scenarios, we, even the oracle, don't what the run-time code will be, e.g. `module add` is compiled separate or we load code in run-time (`eval "some_code_in_string"`)
 
-```Python
-# Example 2
 
-# module arith (compiled):
-def add(x: int, y: int): positive int
-    return x + y
 
-# module main:
-z1 = add(1,  2)
-z3 = add(1, -2) # contract violation
-```
+
+
+
 
 Assume we have compiled `module arith` before, it seems having to put contract checks inside `add`. Given `module main`, before running it, oracle knows it will trigger contract violation. The point here is if we still know source code from the compiled module, it behaves no difference to (un-compiled) source code. The downside is I am not sure is it feasible: either you need the source code (which means the previous compiling is useless) or you have to re-compile (which means the previous compiling is useless).
 

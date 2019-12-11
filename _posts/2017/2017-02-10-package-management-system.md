@@ -6,7 +6,7 @@ title: Package Management System
 comments: true
 category:
 - programming-languages
-- chinese
+- english
 ---
 
 # Overview #
