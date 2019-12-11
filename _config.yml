@@ -1,5 +1,19 @@
 highlighter: rouge
-permalink: pretty
+permalink: /:year/:month/:day/:slug:output_ext
 timezone: America/New_York
+include: [~weng]
 exclude: [.git/]
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      category: "english"
+  -
+    scope:
+      path: "cn"
+      type: "pages"
+    values:
+      head: "cccc"
