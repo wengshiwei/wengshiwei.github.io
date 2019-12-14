@@ -54,6 +54,6 @@ In my gap years before the grad school, I took several some start-ups and freela
 
 I [play](https://steamcommunity.com/id/arbipher/games/?tab=all&sort=playtime) video games. The unexamined game is not worth playing.
 
-I am married to Xiaoxi Chen [陈小溪](https://www.linkedin.com/in/%E5%B0%8F%E6%BA%AA-%E9%99%88-6655b489/). I teach her programming and she teaches me human anatomy.
+I am married to [Xiaoxi Chen](https://www.linkedin.com/in/%E5%B0%8F%E6%BA%AA-%E9%99%88-6655b489/) 陈小溪. I teach her programming and she teaches me human anatomy.
 
 We have a <a href="/assets/img/cat_2019.jpg" target="_blank">cat</a>.
