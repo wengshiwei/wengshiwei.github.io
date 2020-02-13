@@ -42,7 +42,7 @@ My research interests span several aspects in programming languages. I believe p
 
 I am the system administrator of [our lab](http://pl.cs.jhu.edu/).
 
-In my gap years before the grad school, I took several some start-ups and freelance work, mostly in full-stack web programming.
+Before graduate school, I took several jobs in start-ups and freelance work, mostly in full-stack web programming.
 
 ## Publications
 
