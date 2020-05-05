@@ -11,7 +11,7 @@ category:
 
 ## Shiwei Weng 翁士伟
 
-**I am looking forward to summer internship 2020 (functional languages esp. OCaml preferred but all is fine). <a href="mailto:wengshiwei@jhu.edu">Email me</a> wengshiwei@jhu.edu**
+<!-- ~~**I am looking forward to summer internship 2020 (functional languages esp. OCaml preferred but all is fine). <a href="mailto:wengshiwei@jhu.edu">Email me</a> wengshiwei@jhu.edu**~~ -->
 
 I am a second year Ph.D. student in the Department of Computer Science at Johns Hopkins University. My advisor is [Dr. Scott Smith](https://www.cs.jhu.edu/~scott/) and I am a member of [The Programming Languages Laboratory](http://pl.cs.jhu.edu/). I got my joint bachelor degree from Fudan University and University College Dublin in 2013 and master degree from JHU in 2018. My one-page CV is [here](/assets/pdf/CV_shiwei_weng_JHU_year2_PhD_summer_internship.pdf) (updated Nov 2019).
 
