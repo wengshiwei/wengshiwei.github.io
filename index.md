@@ -46,11 +46,11 @@ Before graduate school, I took several jobs in start-ups and freelance work, mos
 
 ## Publications
 
-![funny](/assets/img/funny.jpeg){:height="70px" width="70px"}
+Zachary Palmer, Theodore Park, Scott Smith, Shiwei Weng, Higher-Order Demand-Driven Symbolic Evaluation, ICFP 2020 [[page](https://icfp20.sigplan.org/details/icfp-2020-papers/22/Higher-Order-Demand-Driven-Symbolic-Evaluation)] [[doi](https://dl.acm.org/doi/10.1145/3408984)] [[pdf](https://pl.cs.jhu.edu/projects/demand-driven-symbolic-execution/papers/icfp20-ddse-full.pdf)]
 
 ## Misc
 
-[Blogs](/blog) ([博客](/blog_cn)) are under construction.
+[[博客]](/blog_cn) is under construction.
 
 I [play](https://steamcommunity.com/id/arbipher/games/?tab=all&sort=playtime) video games. The unexamined game is not worth playing.
 
