@@ -11,25 +11,26 @@ category:
 
 ## Shiwei Weng 翁士伟
 
+I am a third-year Ph.D. student in the Department of Computer Science at Johns Hopkins University. My advisor is [Dr. Scott Smith](https://www.cs.jhu.edu/~scott/) and I am a member of [The Programming Languages Laboratory](http://pl.cs.jhu.edu/). I got my joint bachelor's degree from Fudan University and University College Dublin in 2013 and master degree from JHU in 2018. My one-page CV is [here](/assets/pdf/CV_shiwei_weng_JHU_year2_PhD_summer_internship.pdf) (updated Nov 2019).
+
+My research interests span several aspects of programming languages. I believe programming languages can provide solutions to problems in other areas of computer science. I am active in our lab's weekly [seminar](https://pl.cs.jhu.edu/seminars/fall-2020/) and happy to [chat](http://blog.tail.moe/contact) about them.
+
 <!-- ~~**I am looking forward to summer internship 2020 (functional languages esp. OCaml preferred but all is fine). <a href="mailto:wengshiwei@jhu.edu">Email me</a> wengshiwei@jhu.edu**~~ -->
-
-I am a second year Ph.D. student in the Department of Computer Science at Johns Hopkins University. My advisor is [Dr. Scott Smith](https://www.cs.jhu.edu/~scott/) and I am a member of [The Programming Languages Laboratory](http://pl.cs.jhu.edu/). I got my joint bachelor degree from Fudan University and University College Dublin in 2013 and master degree from JHU in 2018. My one-page CV is [here](/assets/pdf/CV_shiwei_weng_JHU_year2_PhD_summer_internship.pdf) (updated Nov 2019).
-
-My research interests span several aspects in programming languages. I believe programming languages can provide solid solutions to problems in other areas in computer science. I am fascinated in theoretical problems which also have real-world impact.
+<!-- I got an internship offer at [Nomadic Labs](https://nomadic-labs.com/) on Linear Types and OCaml program analysis summer 2019. However, due to the COVID-19 and regulations for international students in United States, I cannot make it physically nor virtually. -->
 
 <!-- ## Ongoing Research -->
 ## Research
 
-### 1. Demand-Driven Symbolic Execution [[repo]](//github.com/JHU-PL-Lab/odefa/tree/test-generation) [[page]](//pl.cs.jhu.edu/projects/demand-driven-program-analysis/) [[preprint]](//pl.cs.jhu.edu/projects/demand-driven-program-analysis/papers/higher-order-demand-driven-symbolic-execution-preprint.pdf)
-
+### Demand-Driven Symbolic Execution  [[lab page](https://pl.cs.jhu.edu/projects/demand-driven-symbolic-execution/)]
 - Symbolic _backwards_ execution of functional languages
 - Start from any position in programs
-- Establish the soundness and define a test generation algorithm
+- (done) Establish the soundness and define a test generation algorithm. see publication [ICFP 2020].
+- (in progress) Optimize the theory and implementation, esp. with function summarization [[repo](https://github.com/JHU-PL-Lab/ddse)]
 
-### 2. Program Analysis on the Usage of JavaScript GUI Frameworks
+<!-- ### 2. Program Analysis on the Usage of JavaScript GUI Frameworks
 
 - Treat JavaScript with framework APIs e.g. ReactJS as a new OO/Functional DSL
-- Run program analysis to check the usage of framework APIs
+- Run program analysis to check the usage of framework APIs -->
 <!-- - Inspired by [flapjax](https://www.flapjax-lang.org/) -->
 
 <!-- ## Finished Projects -->
@@ -37,6 +38,7 @@ My research interests span several aspects in programming languages. I believe p
 ## Professional Experience
 
 - Head Teaching Assistant, [601.426/626 Principles of Programming Languages](//pl.cs.jhu.edu/pl/index.shtml), Spring 18 (evaluation [1](/assets/pdf/EN.601.426.01.SP18PrinciplesofProgrammingLanguages_ScottSmith.pdf) [2](/assets/pdf/EN.601.626.01.SP18PrinciplesofProgrammingLanguages_ScottSmith.pdf)), Spring 19 ([evaluation](/assets/pdf/EN.601.426.01.SP19PrinciplesofProgrammingLanguages_ScottSmith.pdf))
+- Course Assistant, [601.329 Functional Programming in Software Engineering](https://pl.cs.jhu.edu/fpse/), Fall 20
 
 ## Work Experience
 
@@ -46,7 +48,7 @@ Before graduate school, I took several jobs in start-ups and freelance work, mos
 
 ## Publications
 
-Zachary Palmer, Theodore Park, Scott Smith, Shiwei Weng, Higher-Order Demand-Driven Symbolic Evaluation, ICFP 2020 [[page](https://icfp20.sigplan.org/details/icfp-2020-papers/22/Higher-Order-Demand-Driven-Symbolic-Evaluation)] [[doi](https://dl.acm.org/doi/10.1145/3408984)] [[pdf](https://pl.cs.jhu.edu/projects/demand-driven-symbolic-execution/papers/icfp20-ddse-full.pdf)]
+Zachary Palmer, Theodore Park, Scott Smith, Shiwei Weng, Higher-Order Demand-Driven Symbolic Evaluation, ICFP 2020 [[page](https://icfp20.sigplan.org/details/icfp-2020-papers/22/Higher-Order-Demand-Driven-Symbolic-Evaluation)] [[doi](https://dl.acm.org/doi/10.1145/3408984)] [[pdf](https://pl.cs.jhu.edu/projects/demand-driven-symbolic-execution/papers/icfp20-ddse-full.pdf)] [[repo](https://github.com/JHU-PL-Lab/odefa)] [[talk](https://talks.cs.umd.edu/talks/2657) ([slide](assets/pdf/2020-ddse-umd.pdf))]
 
 ## Misc
 
