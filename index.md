@@ -22,6 +22,7 @@ My research interests span several aspects of programming languages. I believe p
 ## # Research
 
 ### Demand-Driven Symbolic Execution  [[lab page](https://pl.cs.jhu.edu/projects/demand-driven-symbolic-execution/)]
+
 - Symbolic _backwards_ execution of functional languages
 - Start from any position in programs
 - (done) Establish the soundness and develop a test generation algorithm. See publication [ICFP 2020].
@@ -39,7 +40,7 @@ My research interests span several aspects of programming languages. I believe p
 
 - Head Teaching Assistant, [601.426/626 Principles of Programming Languages](//pl.cs.jhu.edu/pl/index.shtml), Spring 18 (evaluation [1](/assets/pdf/EN.601.426.01.SP18PrinciplesofProgrammingLanguages_ScottSmith.pdf) [2](/assets/pdf/EN.601.626.01.SP18PrinciplesofProgrammingLanguages_ScottSmith.pdf)), Spring 19 ([evaluation](/assets/pdf/EN.601.426.01.SP19PrinciplesofProgrammingLanguages_ScottSmith.pdf))
 - Course Assistant, [601.329 Functional Programming in Software Engineering](https://pl.cs.jhu.edu/fpse/), Fall 20
-- volunteer for SPLASH 2017, SPLASH 2018, ICFP 2020
+- volunteer for SPLASH 2017, SPLASH 2018, ICFP 2020, OCaml 2020
 - attend [PLISS 2017](https://pliss2017.github.io/index.html), [PLMW@SPLASH 2017](https://2017.splashcon.org/track/splash-2017-PLMW#About)
 
 
