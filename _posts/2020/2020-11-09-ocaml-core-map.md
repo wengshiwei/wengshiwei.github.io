@@ -42,3 +42,22 @@ utop # Set.empty (module Foo);;
 ```
 
 The solution is easy. One can use `Core.Set` instead of `Set` to avoid shadowing, or to use `Hashtbl` if it's [suitable](https://dev.realworldocaml.org/maps-and-hashtables.html#hash-tables).
+
+p.s.
+
+The first code snipper contains `[@@deriving sexp ...]`. Both doc linked in the blog use `deriving sexp`. The section [Maps and Hash Tables](https://dev.realworldocaml.org/maps-and-hashtables.html#hash-tables) in *Real World OCaml* demonstrates the usage of `sexp_of`. Under my testing, when using this idiom in `Base`, `deriving sexp_of` is sufficient, but when using it in `Core`, one must use `deriving sexp` since `t_of_sexp` is required in `Core.Comparable.Make`. Or you will see the error message like this:
+
+```ocaml
+utop # 
+module Foo = struct
+  module T =
+  struct  type t = int * int [@@deriving sexp_of, compare]  end
+  include T
+  include Comparable.Make(T)
+end;;
+Line 5, characters 26-27:
+Error: Signature mismatch:
+       ...
+       The value `t_of_sexp' is required but not provided
+       File "src/sexpable.ml", line 4, characters 2-29: Expected declaration
+```
