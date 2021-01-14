@@ -3,3 +3,7 @@ _site
 .DS_Store
 .jade
 _drafts
+
+# ocaml related
+.merlin
+_build

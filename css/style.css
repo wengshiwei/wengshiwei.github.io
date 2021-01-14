@@ -81,6 +81,17 @@ ul.no-style {
 	margin-right: auto;	
 }
 
+pre.highlight {
+	overflow-x: auto;
+}
+
+code.highlighter-rouge {
+	background-color: #f0f0f0;
+	border-radius: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
 table {
 	width: 648px;
 	margin: 0 60px 0 60px;

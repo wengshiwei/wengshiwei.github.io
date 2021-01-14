@@ -4,6 +4,17 @@ timezone: America/New_York
 include: [~weng]
 exclude: [.git/]
 
+plugins:
+  - jekyll-diagrams
+
+kramdown:
+  syntax_highlighter: true
+  syntax_highlighter_opts:
+    default_lang: "ocaml"
+
+liquid:
+  error_mode: 'warn'
+
 defaults:
   -
     scope:
