@@ -4,9 +4,6 @@ timezone: America/New_York
 include: [~weng]
 exclude: [.git/]
 
-plugins:
-  - jekyll-diagrams
-
 kramdown:
   syntax_highlighter: true
   syntax_highlighter_opts:
