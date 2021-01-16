@@ -3,8 +3,8 @@ layout: post
 title: Two map modules in OCaml Core (or one difference between Base and Core)
 comments: true
 category:
-- english
 - ocaml
+- english
 ---
 
 In OCaml Core (or Base), the recommended way to use create a map for a type is to make a module for that type, then to create a map for that module
