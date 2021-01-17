@@ -11,10 +11,11 @@ kramdown:
 
 plugins:
   - jekyll-analytics
+  - jekyll-feed
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: 168108339           # Required - replace with your tracking id
+    id: UA-168108339-1      # Required - replace with your tracking id
     anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 liquid:
