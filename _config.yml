@@ -9,6 +9,14 @@ kramdown:
   syntax_highlighter_opts:
     default_lang: "ocaml"
 
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: 168108339           # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
 liquid:
   error_mode: 'warn'
 

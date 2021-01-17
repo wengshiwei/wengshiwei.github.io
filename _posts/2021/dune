@@ -1,3 +1,11 @@
+
+
+(copy_files
+  (files ../../ocaml/*.ml))
+
 (mdx 
- (files "2021-01-13-prettyprint.md")
+ (files 
+  "2021-01-13-format6.md"
+  "2021-01-15-format6-diagram.md")
+;  (preludes foo.ml)
 )
