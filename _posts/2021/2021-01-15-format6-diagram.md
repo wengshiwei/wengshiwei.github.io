@@ -315,7 +315,7 @@ flowchart LR
     subgraph kont function
       farg[fun _s ->] --> true
     end
-    true --> fmt[%d %a] --> 42 --> string_of_foo --> Foo
+    true --> fmt['%d %a'] --> 42 --> string_of_foo --> Foo
   end
 
   42 -.-> int
