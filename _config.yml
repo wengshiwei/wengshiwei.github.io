@@ -9,9 +9,12 @@ kramdown:
   syntax_highlighter_opts:
     default_lang: "ocaml"
 
+url: "https://blog.tail.moe" # the base hostname & protocol for your site
+
 plugins:
   - jekyll-analytics
   - jekyll-feed
+  - jekyll-sitemap  
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics

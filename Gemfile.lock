@@ -260,6 +260,7 @@ DEPENDENCIES
   jekyll-analytics
   jekyll-feed
   jekyll-redirect-from
+  jekyll-sitemap
 
 BUNDLED WITH
    2.1.2
