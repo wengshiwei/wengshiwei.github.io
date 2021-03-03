@@ -7,3 +7,5 @@ _drafts
 # ocaml related
 .merlin
 _build
+
+mdx_test
