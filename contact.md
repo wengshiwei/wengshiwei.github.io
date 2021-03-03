@@ -1,7 +1,6 @@
 ---
-layout: default-en
-category:
-- english
+layout: default
+lang: en
 ---
 
 ## Shiwei Weng

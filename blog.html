@@ -1,5 +1,6 @@
 ---
-layout: default-en
+layout: default
+lang: en
 categories:
 - ocaml
 - programming
@@ -17,7 +18,7 @@ redirect_from:
 	<h2>{{ category | upcase }}</h2>
 	<ul class='no-style'>
 		{% for post in site.categories[category] %}
-		{% if post.categories contains "english" %}
+		{% if post.categories contains "english" or post.lang == "en" %}
 		<li>
 			{{ post.date | date: "%Y-%m-%d" }}
 			<a href='{{ post.url }}'>{{ post.title }}</a>

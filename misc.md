@@ -1,8 +1,7 @@
 ---
-layout: default-en
+layout: default
+lang: en
 title: Good stuff
-category:
-- english
 ---
 
 ## Code Snippet

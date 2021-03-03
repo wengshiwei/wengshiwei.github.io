@@ -1,5 +1,6 @@
 ---
-layout: post-cn
+layout: post
+lang: cn
 title: CSS Center Recap
 category:
 - css

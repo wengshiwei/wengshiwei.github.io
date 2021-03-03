@@ -9,7 +9,19 @@
 
 <body>
 	<div class='container'>
+		<header>
+			<h1>
+				<a class='no-style' href='/'>
+					{% if page.lang == "cn" %} 现代刨沙艺术 {% else %} Weng the Meta
+					{% endif %}
+					{{ layout.blog_name }}
+				</a>
+				{% include nav_items.html %}
+			</h1>
+		</header>
+		<hr class='clear'>
 		{{ content }}
+		<hr>
 		<footer>
 			<!-- <p class='text-align-center'> wengshiwei ⌘ gmail</p> -->
 			<p class='text-align-center'>The depth lies in the valleys where we seek her, and not upon the mountain-tops where

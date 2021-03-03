@@ -1,5 +1,5 @@
 ---
-layout: default-en
+layout: default
 title: ~weng
 category:
 - english
