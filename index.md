@@ -11,9 +11,11 @@ category:
 
 ## # Shiwei Weng 翁士伟
 
-I am a third-year Ph.D. student in the Department of Computer Science at Johns Hopkins University. My advisor is [Dr. Scott Smith](https://www.cs.jhu.edu/~scott/) and I am a member of [The Programming Languages Laboratory](http://pl.cs.jhu.edu/). I got my joint bachelor's degree from Fudan University and University College Dublin in 2013 and master degree from JHU in 2018. My one-page CV is [here](/assets/pdf/CV_shiwei_weng_JHU_year3_PhD_summer_internship.pdf) (updated Oct 2020).
+I am a third-year Ph.D. student in the Department of Computer Science at Johns Hopkins University. My advisor is [Dr. Scott Smith](https://www.cs.jhu.edu/~scott/) and I am a member of [The Programming Languages Laboratory](http://pl.cs.jhu.edu/). I got my joint bachelor's degree from Fudan University and University College Dublin in 2013 and master degree from JHU in 2018. My one-page CV is [here](/assets/pdf/CV_shiwei_weng_JHU_year3_PhD_summer.pdf) (updated May 2021).
 
 My research interests span several aspects of programming languages. I believe programming languages can provide solutions to problems in other areas of computer science. I am active in our lab's weekly [seminar](https://pl.cs.jhu.edu/seminars/fall-2020/) and happy to [chat](http://blog.tail.moe/contact) about them.
+
+This summer (2021), I will work as a Research Intern at Microsoft Research Lab, Redmond (_virtually_), on [Check C](https://www.microsoft.com/en-us/research/project/checked-c/) project
 
 <!-- ~~**I am looking forward to summer internship 2020 (functional languages esp. OCaml preferred but all is fine). <a href="mailto:wengshiwei@jhu.edu">Email me</a> wengshiwei@jhu.edu**~~ -->
 <!-- I got an internship offer at [Nomadic Labs](https://nomadic-labs.com/) on Linear Types and OCaml program analysis summer 2019. However, due to the COVID-19 and regulations for international students in United States, I cannot make it physically nor virtually. -->

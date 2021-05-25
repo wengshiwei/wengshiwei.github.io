@@ -1,9 +1,14 @@
 <html>
 
 <head>
-	<link href="/css/normalize.css" rel="stylesheet">
+	<!-- <link href="/css/normalize.css" rel="stylesheet"> -->
 	<link href="/css/jekyll-github.css" rel="stylesheet">
 	<link href="/css/style.css" rel="stylesheet">
+	{% if page.css %}
+	{% for css in page.css %}
+	<link href="{{css}}" rel="stylesheet">
+	{% endfor %}
+	{% endif %}
 	<title>{{ page.title }}</title>
 </head>
 
@@ -31,6 +36,14 @@
 	</div>
 
 	<script src="/js/mermaid.min.js"></script>
+
+	{% if page.js %}
+	{% for js in page.js %}
+	<script src="{{js}}"></script>
+	{% endfor %}
+	{% endif %}
+
+	<title>{{ page.title }}</title>
 </body>
 
 </html>

@@ -126,9 +126,9 @@ img + em {
 /* element */
 .language-chooser {
 	width: 868px;
-    right: 110px;
-    top: 27px;
-    position: absolute;
+	right: 110px;
+	top: 27px;
+	position: absolute;
 }
 
 table, th, td {
@@ -139,3 +139,11 @@ table, th, td {
  .strong {
 	 color: red;
  }
+
+ .CodeMirror {
+	 height: auto !important;
+ }
+
+ .CodeMirror-scroll {
+	height: auto !important;
+}
