@@ -15,7 +15,7 @@ I am a third-year Ph.D. student in the Department of Computer Science at Johns H
 
 My research interests span several aspects of programming languages. I believe programming languages can provide solutions to problems in other areas of computer science. I am active in our lab's weekly [seminar](https://pl.cs.jhu.edu/seminars/fall-2020/) and happy to [chat](http://blog.tail.moe/contact) about them.
 
-This summer (2021), I will work as a Research Intern at Microsoft Research Lab, Redmond (_virtually_), on [Check C](https://www.microsoft.com/en-us/research/project/checked-c/) project
+This summer (2021), I work as a Research Intern at Microsoft Research Lab, Redmond (_virtually_), on [Checked C](https://www.microsoft.com/en-us/research/project/checked-c/) project.
 
 <!-- ~~**I am looking forward to summer internship 2020 (functional languages esp. OCaml preferred but all is fine). <a href="mailto:wengshiwei@jhu.edu">Email me</a> wengshiwei@jhu.edu**~~ -->
 <!-- I got an internship offer at [Nomadic Labs](https://nomadic-labs.com/) on Linear Types and OCaml program analysis summer 2019. However, due to the COVID-19 and regulations for international students in United States, I cannot make it physically nor virtually. -->
